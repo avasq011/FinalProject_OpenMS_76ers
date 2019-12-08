@@ -1,7 +1,7 @@
 FROM openms/contrib
 
 WORKDIR /
-RUN git clone --depth 1 https://github.com/avasq011/FinalProject_OpenMS_76ers.git -b develop
+RUN git clone --depth 1 https://github.com/avasq011/OpenMS.git -b develop
 RUN mkdir openms-build
 
 WORKDIR /openms-build
