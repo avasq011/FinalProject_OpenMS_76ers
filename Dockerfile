@@ -15,3 +15,5 @@ RUN make TOPP && make UTILS && rm -rf src doc CMakeFiles
 
 WORKDIR /
 ENV PATH="/openms-build/bin/:${PATH}"
+
+RUN export LD_LIBRARY_PATH="/openms-build/lib:$LD_LIBRARY_PATH"
